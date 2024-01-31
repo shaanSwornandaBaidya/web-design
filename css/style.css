@@ -1,0 +1,113 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  padding-top: 100px;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+#content {
+  min-height: 600px;
+}
+
+#banner_image {
+  padding-bottom: 50px;
+  text-align: center;
+  color: #f8f8f8;
+  background: url(../img/intro-bg.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+#banner_content {
+  position: relative;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  margin-top: 12%;
+  margin-bottom: 12%;
+  background-color: rgba(0, 0, 0, 0.7);
+  max-width: 660px;
+}
+
+#item_list {
+  padding-top: 50px;
+}
+
+/*This code ensures that when we navigate to a particular section of a page, the section does not get lost behind the header*/
+#cameras:before,
+#watches:before,
+#shirts:before {
+  display: block;
+  content: " ";
+  margin-top: -85px;
+  height: 85px;
+  visibility: hidden;
+}
+
+#login-panel .panel-footer {
+  font-weight: normal;
+}
+
+footer {
+  padding: 10px 0;
+  background-color: #158852;
+  color: #fff;
+  bottom: 0;
+  width: 100%;
+}
+
+.red {
+  color: red;
+}
+
+#settings-container {
+  margin-bottom: 10px;
+}
+
+.navbar-brand {
+  font-size: 20px;
+}
+
+.search-field {
+  border: 1px solid #cece;
+  padding: 25px;
+  width: 70%;
+  margin: 20px;
+  margin-right: 0;
+}
+
+.navbar {
+  padding: 15px 0;
+  background-color: #fff;
+  border: none;
+}
+.navbar-inverse .navbar-brand {
+  color: #158852;
+  font-weight: bold;
+  letter-spacing: 1.6;
+}
+.navbar-inverse .navbar-brand:hover {
+  color: #aad58f;
+}
+
+.btn {
+  background-color: #158852;
+  padding: 20px 40px;
+  color: #fff;
+  font-weight: 600;
+}
+.btn:hover {
+  color: #158852;
+  background-color: #fff;
+}
